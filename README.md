@@ -11,7 +11,9 @@ An RAG system for Psychiatric Question Answering. Submitted for University of Ne
 
 ### Code 
 - All coding was done in Google Colab to leverage the Nvidia GPU processors and speed up model implementation.
+- HuggingFace was used for model access. To replicate this project, you will need your own hugging face authentification. 
 - [RAG Implementation and Evaluation Jupyter Notebook](https://github.com/ellenmartin11/RAG-Psychiatry-QA/blob/main/analysis%20and%20results/NLP_RAG_Project%20(1).md) (markdown)
+- [Google Drive Link to Models, Embeddings](https://drive.google.com/drive/folders/1YKQrMhvLU__tTl7sk96ALz6qiw7d7C6e?usp=sharing)
 
 ### Results
 - Semantic Similarity Heatmap: Gemma vs Mistral:
