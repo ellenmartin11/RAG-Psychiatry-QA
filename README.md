@@ -12,3 +12,10 @@ An RAG system for Psychiatric Question Answering. Submitted for University of Ne
 ### Code 
 - All coding was done in Google Colab to leverage the Nvidia GPU processors and speed up model implementation.
 - RAG Implementation and Evaluation Jupyter Notebook.
+
+### Results
+- Semantic Similarity Heatmap: Gemma vs Mistral:
+![Semantic Similarity Heatmap Gemma vs Mistral](https://github.com/ellenmartin11/RAG-Psychiatry-QA/blob/main/analysis%20and%20results/output_102_0.png)
+
+- BLEU vs ROUGE (all 3 models):
+![BLEU vs ROUGE]
