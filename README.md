@@ -11,11 +11,24 @@ An RAG system for Psychiatric Question Answering. Submitted for University of Ne
 
 ### Code 
 - All coding was done in Google Colab to leverage the Nvidia GPU processors and speed up model implementation.
-- RAG Implementation and Evaluation Jupyter Notebook.
+- [RAG Implementation and Evaluation Jupyter Notebook](https://github.com/ellenmartin11/RAG-Psychiatry-QA/blob/main/analysis%20and%20results/NLP_RAG_Project%20(1).md) (markdown)
 
 ### Results
 - Semantic Similarity Heatmap: Gemma vs Mistral:
+
 ![Semantic Similarity Heatmap Gemma vs Mistral](https://github.com/ellenmartin11/RAG-Psychiatry-QA/blob/main/analysis%20and%20results/output_102_0.png)
 
 - BLEU vs ROUGE (all 3 models):
-![BLEU vs ROUGE]
+![BLEU vs ROUGE](https://github.com/ellenmartin11/RAG-Psychiatry-QA/blob/main/analysis%20and%20results/output_82_1.png)
+
+- Precision, Recall and F1 (BERTscore) - uses BERT (another llm) to compute the clinical precision and recall of the answers:
+
+![Precision, Recall and F1](https://github.com/ellenmartin11/RAG-Psychiatry-QA/blob/main/analysis%20and%20results/output_116_0.png)
+
+- BERTscore F1 per question:
+
+![F1 per question](https://github.com/ellenmartin11/RAG-Psychiatry-QA/blob/main/analysis%20and%20results/output_117_0.png)
+
+- Precision and Recall @ K:
+
+![Precision and Recall @ K](https://github.com/ellenmartin11/RAG-Psychiatry-QA/blob/main/analysis%20and%20results/output_127_0.png)
